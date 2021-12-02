@@ -1,0 +1,7 @@
+echo "# first-conda" >> README.md
+git init
+git add README.md
+git commit -m "adding new file"
+git branch -M main
+git remote add origin https://github.com/robinkl4/first-conda.git
+git push -u origin main
